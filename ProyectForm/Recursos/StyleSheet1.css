@@ -1,0 +1,85 @@
+﻿.centrarf {
+    display: flex; /*convierte el <div> en una fila con elementos alineados horizontalmente*/
+    align-items: center; /*centra verticalmente los elementos dentro de la fila*/
+    height: 30px;
+}
+
+.centrado {
+    text-align: center;
+}
+
+.formato {
+    font-family: Comic Sans MS;
+    font-size: 25px;
+    color: white;
+}
+
+
+body {
+    background-image: url("https://i.pinimg.com/originals/db/ab/2f/dbab2f3be06e768e77a85f175e577955.gif");
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+    body::before {
+        content: "";
+        background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200821/pngtree-pure-black-dark-background-wallpaper-image_396553.jpg");
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        opacity: 0.5;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+.styleimageunsa {
+    height: 60px;
+    position: absolute;
+    left: 880px; /*980px para PC UNSA, 880px para mí*/
+    top: 25px;
+}
+
+.styleimagecs {
+    height: 70px;
+    position: absolute;
+    left: -130px;
+    top: 20px;
+}
+
+label {
+    font-family: Comic Sans MS;
+    font-size: 20px;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-family: Cooper;
+    font-size: 55px;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 2px black;
+}
+
+.wrapper {
+    display: grid;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.top {
+    display: flex;
+    height: 20px;
+}
+
+.formatotextbox {
+    font-family: Comic Sans MS;
+    font-size: 20px;
+    color: black;
+}
